@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphine Vellora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="main">
+
+        <nav id="navbar">
+
+            <!-- MAIN - LOGO -->
+
+            <svg width="200" height="200" viewBox="-35 -35 70 70" xmlns="http://www.w3.org/2000/svg">
+
+            <!-- Define circular path for full text circle (radius 18) -->
+            <defs>
+                <path id="textCircle" d="M 0,-18 A 18 18 0 1 1 0,18 A 18 18 0 1 1 0,-18" />
+            </defs>
+
+            <!-- Sun in the center -->
+            <circle r="6" />
+            <path id="ray" d="M 0 11 L 0 14" stroke="black" />
+            <use href="#ray" transform="rotate(45)" />
+            <use href="#ray" transform="rotate(90)" />
+            <use href="#ray" transform="rotate(135)" />
+            <use href="#ray" transform="rotate(180)" />
+            <use href="#ray" transform="rotate(225)" />
+            <use href="#ray" transform="rotate(270)" />
+            <use href="#ray" transform="rotate(315)" />
+
+            <!-- Circular text farther away (radius 18 for good spacing) -->
+            <text id="sun-text-around">
+                <textPath href="#textCircle" startOffset="50%" text-anchor="middle" class="audiowide-regular">
+                    SHINE • POWER • ENERGY • BRIGHT • LIGHT • RADIATE •
+                </textPath>
+            </text>
+        </svg>
+
+
+            <!-- Name -->
+
+            <h4 class="audiowide-regular">Seraphine Vellora</h4>
+
+        </nav>
+        
+
+        <div id="section1"></div>
+
+        <div id="section2">
+            <div></div>
+        </div>
+
+        <div id="section3"></div>
+
+        <div id="text-section" class="audiowide-regular">
+            <p>BRIGHT • SOLAR • LIGHT • RADIATE • WARMTH • SHINE • POWER • ENERGY • </p>
+            <h1>Still life</h1>
+            <h1>with</h1>
+            <h1>broken</h1>
+            <h1>pixels</h1>
+            <p>SHINE • POWER • ENERGY • BRIGHT • SOLAR • LIGHT • RADIATE • WARMTH •</p>
+        </div>
+
+        <div id="overlay-img">
+            <div class="overlay"></div>
+        </div>
+
+        <div id="vertical-text">
+            <h2 class="audiowide-regular">Spring Artifacts 2025</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

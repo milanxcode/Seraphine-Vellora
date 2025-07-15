@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="-20 -20 40 40" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Define circular path for full text circle (radius 16) -->
+    <defs>
+        <path id="textCircle" d="M 0,-16 A 16 16 0 1 1 0,16 A 16 16 0 1 1 0,-16" />
+    </defs>
+
+    <!-- Sun in the center -->
+    <circle r="6" fill="none" stroke="black" />
+    <path id="ray" d="M 0 11 L 0 14" stroke="black" />
+    <use href="#ray" transform="rotate(45)" />
+    <use href="#ray" transform="rotate(90)" />
+    <use href="#ray" transform="rotate(135)" />
+    <use href="#ray" transform="rotate(180)" />
+    <use href="#ray" transform="rotate(225)" />
+    <use href="#ray" transform="rotate(270)" />
+    <use href="#ray" transform="rotate(315)" />
+
+    <!-- Circular text farther away (radius 16 for good spacing) -->
+    <text font-size="1.5" fill="black">
+        <textPath href="#textCircle" startOffset="50%" text-anchor="middle">
+            SHINE • POWER • ENERGY • BRIGHT • SOLAR • LIGHT • RADIATE • WARMTH •
+        </textPath>
+    </text>
+
+</svg>
+
+
+
+<div id="sun">
+    <svg width="200" height="200" viewbox="-15 -15 30 30">
+        <circle r="6" stroke="black" />
+        <path id="ray" d=" M 0 11 L 0 14" />
+        <use href="#ray" transform="rotate(45)" />
+        <use href="#ray" transform="rotate(90)" />
+        <use href="#ray" transform="rotate(135)" />
+        <use href="#ray" transform="rotate(180)" />
+        <use href="#ray" transform="rotate(225)" />
+        <use href="#ray" transform="rotate(270)" />
+        <use href="#ray" transform="rotate(315)" />
+    </svg>
+</div>
