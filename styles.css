@@ -58,7 +58,7 @@ nav h4 {
     height: 100%;
     width: 60%;
 
-    background-image: url(./img/img01.jpg);
+    background-image: url(./img/img01.webp);
     background-size: cover;
     background-position: top;
 
@@ -103,7 +103,7 @@ nav h4 {
     height: 500px;
     width: 350px;
 
-    background-image: url(./img/img02.jpg);
+    background-image: url(./img/img02.webp);
     background-size: cover;
     background-position: center;
 
