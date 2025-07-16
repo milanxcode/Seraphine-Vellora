@@ -15,6 +15,7 @@ A sleek, minimal landing page that blends editorial elegance with modern digital
 
 ## 🔗 Live Preview
 
+- [View Website]
 - [View Website](https://milanxcode.github.io/Seraphine-Vellora/)  
 
 ---
@@ -29,6 +30,7 @@ A sleek, minimal landing page that blends editorial elegance with modern digital
 
 ## 📸 Screenshots
 
+![Screenshot]
 ![Screenshot](./img/mockup.jpg)
 
 ---
