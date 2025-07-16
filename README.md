@@ -1,45 +1,39 @@
 # Seraphine Vellora
 
-A minimal and editorial-style landing page designed to blend elegance and modern UI aesthetics.
+A sleek, minimal landing page that blends editorial elegance with modern digital aesthetics.
+
+---
 
 ## ✨ Features
 
-- Sleek and clean design
-- Responsive layout
-- Typography-focused composition
-- Built with HTML, CSS, and JavaScript
+- Clean, layout-driven design  
+- Responsive and mobile-friendly  
+- Bold typography and visual balance  
+- Built using HTML, CSS, and JavaScript  
+
+---
 
 ## 🔗 Live Preview
 
-[View Website](https://milanxcode.github.io/Seraphine-Vellora/)
+- [View Website](https://milanxcode.github.io/Seraphine-Vellora/)  
+
+---
 
 ## 🛠 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
+- HTML5  
+- CSS3  
+- JavaScript  
 
-## 📁 Project Structure
-
-Seraphine-Vellora/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-└── img/
-
-
+---
 
 ## 📸 Screenshots
 
 ![Screenshot](./img/mockup.jpg)
 
-## 💡 Inspiration
-
-Inspired by editorial design, fashion campaigns, and calm visual storytelling.
-
 ---
 
+## 💡 Inspiration
 
+Where digital meets editorial — inspired by soft tones, serene fashion layouts, and the beauty of broken symmetry.
 
