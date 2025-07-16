@@ -33,7 +33,7 @@ Seraphine-Vellora/
 
 ## 📸 Screenshots
 
-![Screenshot](./img/)
+![Screenshot](./img/mockup.jpg)
 
 ## 💡 Inspiration
 
